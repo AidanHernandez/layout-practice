@@ -29,12 +29,13 @@ nav#nav {
 .nav > button{
     background-color:#383e4c;
     font-family: "Open Sans", sans-serif;
-    font-size: 17px;
+    font-size: 1.2vw;
     color:white;
     margin-right: 1%;
     height: 55%;
-    width: 6%;
+    width: 9vw;
     border: 2px solid #434958;
+    align-self: center;
 }
 
 .nav > .home{
@@ -45,15 +46,16 @@ nav#nav {
     position: absolute;
     left:0;
     top: 8%;
-    display: flex;
-    flex-flow: column wrap;
+    display: inline-flex;
+    flex-flow: column;
     background-image: url(Assets/img11.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
     align-items: center;
     color: white;
-    background-position: 20% 50%;
+    background-position: 0vw -5vh;
+    background-attachment: fixed;
 }
 
 section#hero {
@@ -63,30 +65,35 @@ section#hero {
 
 .hero > h1{
     font-weight: normal;
-    font-size: 70px;
-    margin-bottom: 0;
-    text-shadow: 1px 2px black;
+    font-size: 5vw;
+    text-shadow: 0.1vw 0.2vw black;
+    position: fixed;
+    
 }
 
 .hero > h2{
     font-weight: normal;
-    font-size: 25px;
-    margin-top: 0;
-    text-shadow: 1px 1px black;
+    font-size: 1.5vw;
+    margin-top: 15vh;
+    text-shadow: 0.1vw 0.1vw black;
+   position: fixed;
 }
 
 .cards1{
     position: absolute;
     left:0;
-    top:65%;
+    top:58%;
+    padding-top: 7%;
     display: flex;
     flex-flow: row;
     justify-content: center;
+    background-color: white;
+    z-index: 4;
 }
 
 article#cards1 {
     width: 100%;
-    height: 50%;
+    height: fit-content;
 }
 
 section.card1-1, section.card1-2, section.card1-3{
@@ -112,11 +119,13 @@ section.card1-1 > h3{
     width:94%;
     margin-left: 6%;
     color: green;
+    font-size: 1.3vw;
 }
 
 section.card1-1 > p{
     width:94%;
     margin-left: 6%;
+    font-size: 1.1vw;
 }
 
 section.card1-1 > button{
@@ -128,18 +137,20 @@ section.card1-1 > button{
     width: 45%;
     height: 10%;
     margin-left: 25%;
-    font-size: 20px;
+    font-size: 1.2vw;
 }
 
 section.card1-3 > h3{
     width:94%;
     margin-left: 6%;
     color: #898989;
+    font-size: 1.3vw;
 }
 
 section.card1-3 > p{
     width:94%;
     margin-left: 6%;
+    font-size: 1.1vw;
 }
 
 section.card1-3 > button{
@@ -151,18 +162,20 @@ section.card1-3 > button{
     width: 45%;
     height: 10%;
     margin-left: 25%;
-    font-size: 20px;
+    font-size: 1.2vw;
 }
 
 section.card1-2 > h3{
     width:94%;
     margin-left: 6%;
     color: #1686c1;
+    font-size: 1.3vw;
 }
 
 section.card1-2 > p{
     width:94%;
     margin-left: 6%;
+    font-size: 1.1vw;
 }
 
 section.card1-2 > button{
@@ -174,21 +187,24 @@ section.card1-2 > button{
     width: 45%;
     height: 10%;
     margin-left: 25%;
-    font-size: 20px;
+    font-size: 1.2vw;
 }
 
 .cards2{
     position: absolute;
     left:0;
-    top:125%;
+    top:120%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     display: inline-flex;
     flex-flow: row;
     justify-content: center;
+    background-color: white;
 }
 
 article#cards2{
     width:100%;
-    height: 60%;
+    height: 62%;
 }
 
 section.card2-1, section.card2-2{
@@ -248,13 +264,13 @@ button.more{
     background-size: cover;
     background-position: 10% 10%;
     color: white;
-   
+   z-index: 3;
 
 }
 
 section#dividor{
     left:0;
-    top:190%;
+    top:200%;
     width: 100%;
     height: 25%;
     justify-content: center;
@@ -268,7 +284,7 @@ section#dividor{
 }
 
 .dividor > h3{
-    width: 30%;
+    width: fit-content;
     font-size: 15px;
     margin-top: 0;
 }
@@ -296,11 +312,14 @@ section#dividor{
     display: flex;
     flex-flow: row;
     justify-content: center;
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 article#cards3 {
     width: 100%;
-    height: 55%;
+    height: 57%;
 }
 
 section.card3-1, section.card3-2, section.card3-3, section.card3-4{
@@ -369,13 +388,14 @@ section.card3-4 > button{
     flex-flow: column;
     position: absolute;
     background-color: #f2f2f2;
+    
 }
 
 article#big{
     width:62%;
-    top:280%;
+    top:295%;
     left:18%;
-    height: 88%;
+    height: 93%;
 }
 
 .big > h3{
@@ -401,6 +421,16 @@ article#big{
     font-size: 19px;
 }
 
+.div2{
+    position: absolute;
+    top:388%;
+    width: 100%;
+    height: 8%;
+    background-color: white;
+    display: flex;
+    left:0;
+}
+
 .contact{
     display: inline-flex;
     flex-flow: column;
@@ -410,12 +440,14 @@ article#big{
     background-size: cover;
     background-position: 0% 30%;
     align-items: center;
+    background-color: white;
 }
 
 section#contact{
     width: 100%;
     left:0;
-    top: 378%;
+    top: 375%;
+    margin-top: 10%;
     height: 60%;
 }
 
@@ -439,30 +471,24 @@ section#contact{
 .contact > .text  h3{
     
     margin-top: 0;
-    width: 100%;
+    width: fit-content;
     font-size: 12px;
     
 }
 
 .contact > .text > h3:nth-of-type(1){
     padding-top: 2%;
-    padding-left: 10%;
+    padding-left: 5%;
     padding-right: 5%;
 }
 
 .contact > .text > h3:nth-of-type(2){
-    margin-top: 0;
-    width:95%;
-    margin-left: 4%;
-    padding-left: 10%;
+    padding-left: 5%;
     padding-right: 5%;
 }
 
 .contact > .text > h3:nth-of-type(3){
-    margin-top: 0;
-    width: 85%;
-    margin-left: 12%;
-    padding-left: 10%;
+    padding-left: 5%;
     padding-right: 5%;
 }
 
@@ -541,10 +567,11 @@ footer{
     position: absolute;
     justify-content: center;
     align-items: center;
+    margin-top: 5%;
 }
 
 footer#footer{
-    top: 438%;
+    top: 445%;
     left:0;
     width: 100%;
 }
@@ -580,4 +607,7 @@ footer > img{
     align-self: flex-end;
     margin-right: 1%;
     margin-bottom: 1%;
+}
+
+@media screen and (max-width:1440px){
 }
