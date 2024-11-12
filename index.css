@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+}
+
+button{
+    font-family: "Open Sans", sans-serif;
+    font-weight: normal;
+}
+
+.nav {
+    position: absolute;
+    left:0;
+    top:0;
+    display: flex;
+    flex-flow: row;
+    background-color:#383e4c;
+    justify-content: center;
+    align-items: center;
+}
+
+nav#nav {
+    height: 8%;
+    width:100%;
+}
+
+.nav > button{
+    background-color:#383e4c;
+    font-family: "Open Sans", sans-serif;
+    font-size: 17px;
+    color:white;
+    margin-right: 1%;
+    height: 55%;
+    width: 6%;
+    border: 2px solid #434958;
+}
+
+.nav > .home{
+    background-color: #49505f;
+}
+
+.hero{
+    position: absolute;
+    left:0;
+    top: 8%;
+    display: flex;
+    flex-flow: column wrap;
+    background-image: url(Assets/img11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-position: 20% 50%;
+}
+
+section#hero {
+    height: 50%;
+    width:100%;
+}
+
+.hero > h1{
+    font-weight: normal;
+    font-size: 70px;
+    margin-bottom: 0;
+    text-shadow: 1px 2px black;
+}
+
+.hero > h2{
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 0;
+    text-shadow: 1px 1px black;
+}
+
+.cards1{
+    position: absolute;
+    left:0;
+    top:65%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+article#cards1 {
+    width: 100%;
+    height: 50%;
+}
+
+section.card1-1, section.card1-2, section.card1-3{
+    width: 20%;
+    margin-right: 2%;
+    background-color: #f2f2f2;
+    
+}
+
+section.card1-1 > img{
+    width: 100%;
+}
+
+section.card1-2 > img{
+    width: 100%;
+}
+
+section.card1-3 > img{
+    width: 100%;
+}
+
+section.card1-1 > h3{
+    width:94%;
+    margin-left: 6%;
+    color: green;
+}
+
+section.card1-1 > p{
+    width:94%;
+    margin-left: 6%;
+}
+
+section.card1-1 > button{
+    color: white;
+    background-color: #178a27;
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    border-radius: 3px;
+    width: 45%;
+    height: 10%;
+    margin-left: 25%;
+    font-size: 20px;
+}
+
+section.card1-3 > h3{
+    width:94%;
+    margin-left: 6%;
+    color: #898989;
+}
+
+section.card1-3 > p{
+    width:94%;
+    margin-left: 6%;
+}
+
+section.card1-3 > button{
+    color: white;
+    background-color: #852406;
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    border-radius: 3px;
+    width: 45%;
+    height: 10%;
+    margin-left: 25%;
+    font-size: 20px;
+}
+
+section.card1-2 > h3{
+    width:94%;
+    margin-left: 6%;
+    color: #1686c1;
+}
+
+section.card1-2 > p{
+    width:94%;
+    margin-left: 6%;
+}
+
+section.card1-2 > button{
+    color: white;
+    background-color: #1686c1;
+    font-family: "Open Sans", sans-serif;
+    border: none;
+    border-radius: 3px;
+    width: 45%;
+    height: 10%;
+    margin-left: 25%;
+    font-size: 20px;
+}
+
+.cards2{
+    position: absolute;
+    left:0;
+    top:125%;
+    display: inline-flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+article#cards2{
+    width:100%;
+    height: 60%;
+}
+
+section.card2-1, section.card2-2{
+    width: 31%;
+    margin-right: 2%;
+    background-color: #f2f2f2;
+    
+}
+
+section.card2-1 > img, section.card2-2 > img{
+    width: 100%;
+}
+
+
+
+section.card2-1 > h3{
+    margin-left: 35%;
+    width: fit-content;
+    color: #989898;
+}
+
+section.card2-1 > p{
+    margin-left: 5%;
+    width: 91%;
+    color: #898989;
+}
+
+section.card2-2 > h3{
+    margin-left: 35%;
+    width: fit-content;
+    color: #989898;
+}
+
+section.card2-2 > p{
+    margin-left: 5%;
+    width: 91%;
+    color: #898989;
+} 
+
+button.more{
+    background-color: white;
+    margin-left: 70%;
+    border-radius: 5px;
+    color: #888888;
+    border: 1px solid #dadada;
+    width: 20%;
+    height: 7%;
+    font-size: 17px;
+}
+
+.dividor{
+    display: inline-flex;
+    flex-flow: column;
+    position: absolute;
+    background-image: url(Assets/img13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10% 10%;
+    color: white;
+   
+
+}
+
+section#dividor{
+    left:0;
+    top:190%;
+    width: 100%;
+    height: 25%;
+    justify-content: center;
+    align-items: center;
+}
+
+.dividor > h2{
+    width: fit-content;
+    font-size: 30px;
+    text-shadow: 1px 2px #aaaaaa;
+}
+
+.dividor > h3{
+    width: 30%;
+    font-size: 15px;
+    margin-top: 0;
+}
+
+.dividor > h3:nth-of-type(2){
+    width: 28%;
+    font-size: 15px;
+    margin-top: 0;
+    margin-left: 2%;
+}
+
+.dividor > h3:nth-of-type(3){
+    width: 25%;
+    font-size: 15px;
+    margin-top: 0;
+    margin-left: 10%;
+}
+
+
+
+.cards3{
+    position: absolute;
+    left:0;
+    top:220%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+article#cards3 {
+    width: 100%;
+    height: 55%;
+}
+
+section.card3-1, section.card3-2, section.card3-3, section.card3-4{
+    width: 14%;
+    margin-right: 2%;
+    background-color: #f2f2f2;
+    
+}
+
+section.card3-1 > img{
+    width: 100%;
+}
+
+section.card3-2 > img{
+    width: 100%;
+}
+
+section.card3-3 > img{
+    width: 100%;
+}
+
+section.card3-4 > img{
+    width: 100%;
+}
+
+section.card3-1 > h3, section.card3-2 > h3, section.card3-3 > h3, section.card3-4 > h3{
+    width:fit-content;
+    margin-left: 30%;
+    color: #666666;
+}
+
+section.card3-1 > p, section.card3-2 > p, section.card3-3 > p, section.card3-4 > p{
+    width:90%;
+    margin-left: 9%;
+    color: #959595;
+}
+
+
+section.card3-2 > button{
+    color: #767676;
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+    width: 35%;
+    height: 8%;
+    margin-left: 30%;
+    font-size: 17px;
+}
+
+
+section.card3-4 > button{
+    color: #767676;
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+    width: 35%;
+    height: 8%;
+    margin-left: 30%;
+    font-size: 17px;
+}
+
+.big{
+    display: inline-flex;
+    flex-flow: column;
+    position: absolute;
+    background-color: #f2f2f2;
+}
+
+article#big{
+    width:62%;
+    top:280%;
+    left:18%;
+    height: 88%;
+}
+
+.big > h3{
+    width:94%;
+    margin-left: 3%;
+    color: #898989;
+}
+
+.big > p{
+    width:94%;
+    margin-left: 3%;
+}
+
+.big > button{
+    color: #767676;
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+    width: 13%;
+    height:5%;
+    margin-left: 3%;
+    font-size: 19px;
+}
+
+.contact{
+    display: inline-flex;
+    flex-flow: column;
+    position: absolute;
+    background-image: url(Assets/img14.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 30%;
+    align-items: center;
+}
+
+section#contact{
+    width: 100%;
+    left:0;
+    top: 378%;
+    height: 60%;
+}
+
+.contact > h2{
+    color: white;
+    margin-top: 5%;
+    font-size: 35px;
+    text-shadow: 1px 2px black;
+}
+
+.text{
+    display: inline-flex;
+    flex-flow: column;
+    background-color: rgba(218, 217, 217, 0.514);
+    width: 30%;
+    border-radius: 10px;
+    margin-bottom: 2%;
+  
+}
+
+.contact > .text  h3{
+    
+    margin-top: 0;
+    width: 100%;
+    font-size: 12px;
+    
+}
+
+.contact > .text > h3:nth-of-type(1){
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+.contact > .text > h3:nth-of-type(2){
+    margin-top: 0;
+    width:95%;
+    margin-left: 4%;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+.contact > .text > h3:nth-of-type(3){
+    margin-top: 0;
+    width: 85%;
+    margin-left: 12%;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+.form{
+    display: flex;
+    flex-flow: row;
+}
+
+section#form{
+    width: 30%;
+    height: 30%;
+}
+
+section.left{
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    color:black;
+}
+
+section.left > input{
+    
+   background-color: rgba(218, 217, 217, 0.514);
+   height: 20%;
+   border: none;
+   margin-top: 2%;
+   border-radius: 5px;
+}
+
+section.left > input:first-of-type{
+    border: none;
+    margin-top: 0%;
+ }
+ 
+
+::placeholder {
+    position: absolute;
+    color: black;
+    left:5%
+}
+
+section.right{
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    margin-left: 4%;
+}
+
+section.right > input{
+   background-color: rgba(218, 217, 217, 0.514);
+   height: 65%;
+   border: none;
+   border-radius: 5px;
+}
+
+section.right > input::placeholder {
+    position:absolute;
+    left: 5%;
+    top: 5%;
+}
+
+button.send{
+    width: 30%;
+    margin-left: 108%;
+    height: 20%;
+    border-radius: 10px;
+    color: white;
+    background-color: #262628;
+    border: 1px solid white;
+    margin-top: 5%;
+}
+
+footer{
+    display: inline-flex;
+    flex-flow: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+footer#footer{
+    top: 438%;
+    left:0;
+    width: 100%;
+}
+
+footer > h3{
+    color: #666666;
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+hr{
+    margin-top: 2.5%;
+    width: 100%;
+    background-color: #f7f7f7; 
+    height: 1px; 
+    border: 0
+}
+
+footer > p:first-of-type{
+    color: #666666;
+    font-size: 12px;
+    font-style: italic;
+}
+
+footer > p:last-of-type{
+    color: #999999;
+    font-size: 12px;
+    font-style: italic;
+}
+
+footer > img{
+    align-self: flex-end;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
