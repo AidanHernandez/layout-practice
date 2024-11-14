@@ -223,7 +223,7 @@ section.card2-1 > img, section.card2-2 > img{
 
 
 section.card2-1 > h3{
-    margin-left: 11vw;
+    margin-left: 9vw;
     width: fit-content;
     color: #989898;
     font-size: 0.95vw;
@@ -237,7 +237,7 @@ section.card2-1 > p{
 }
 
 section.card2-2 > h3{
-    margin-left: 11vw;
+    margin-left: 9vw;
     width: fit-content;
     color: #989898;
     font-size: .95vw;
@@ -374,7 +374,7 @@ section.card3-2 > button{
     border-radius: 0.5vw;
     width: 5vw;
     height: 5vh;
-    margin-left: 4vw;
+    margin-left: 4.5vw;
     font-size: .8vw;
 }
 
@@ -387,7 +387,7 @@ section.card3-4 > button{
     border-radius: 0.5vw;
     width: 5vw;
     height: 5vh;
-    margin-left: 4vw;
+    margin-left: 4.5vw;
     font-size: .8vw;
 }
 
@@ -402,7 +402,7 @@ section.card3-4 > button{
 article#big{
     width:62vw;
     top:295vh;
-    left:17.6vw;
+    left:18vw;
     height: 90vh;
 }
 
@@ -626,5 +626,981 @@ footer > img{
 @media screen{
     body{
         overflow-x: hidden;
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1440px) {
+    article#cards1.cards1{
+        height: 53vh;
+    }
+
+    section.card1-1, section.card1-2, section.card1-3{
+        height: 53vh;
+    }
+
+    article#cards2.cards2{
+        top:118vh;
+        height: 49vh;
+    }
+
+    section.card2-1, section.card2-2{
+        height: 49vh;
+    }
+
+    section#dividor{
+        top:177vh;
+    }
+
+    article#cards3{
+        top:202vh;
+        height: 45vh;
+    }
+
+    section.card3-1, section.card3-2, section.card3-3, section.card3-4{
+        height: 45vh;
+    }
+
+    article#big{
+        top:260.9vh;
+        height: 70vh;
+    }
+
+    section#contact{
+        top:330.9vh;
+    }
+
+    section.div2{
+        top:320.9vh;
+    }
+
+    footer#footer{
+        top:400.9vh;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1200px) {
+    article#cards1.cards1{
+        height: 45vh;
+    }
+
+    section.card1-1, section.card1-2, section.card1-3{
+        height: 45vh;
+    }
+
+    article#cards2.cards2{
+        top:110vh;
+        height: 42vh;
+    }
+
+    section.card2-1, section.card2-2{
+        height: 42vh;
+    }
+
+    section#dividor{
+        top:162vh;
+    }
+
+    article#cards3{
+        top:187vh;
+        height: 38vh;
+    }
+
+    section.card3-1, section.card3-2, section.card3-3, section.card3-4{
+        height: 38vh;
+    }
+
+    article#big{
+        top:239vh;
+        height: 60vh;
+    }
+
+    section#contact{
+        top:298.9vh;
+        height: 50vh;
+    }
+
+    section.div2{
+        top:288.9vh;
+    }
+
+    footer#footer{
+        top:358.9vh;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    article#cards1.cards1{
+        height: 38vh;
+    }
+
+    section.card1-1, section.card1-2, section.card1-3{
+        height: 38vh;
+    }
+
+    section.card1-1 > button, section.card1-2 > button, section.card1-3 > button{
+        height: 5vh;
+    }
+
+    article#cards2.cards2{
+        top:102vh;
+        height: 40vh;
+    }
+
+    section.card2-1, section.card2-2{
+        height: 40vh;
+    }
+
+    section.card2-1 > h3, section.card2-2 > h3{
+        font-size: 1.2vw;
+    }
+
+    section.card2-1 > p, section.card2-2 > p{
+        font-size: 0.95vw;
+    }
+
+    section#dividor{
+        top:152vh;
+    }
+
+    section#dividor > h2{
+        font-size: 3vw;
+    }
+
+    section#dividor > h3{
+        font-size: 1vw;
+    }
+
+    section#dividor > h3:nth-of-type(2){
+        font-size: 1vw;
+        width: fit-content;
+    }
+
+    article#cards3{
+        top:177vh;
+        height: 38vh;
+    }
+
+    section.card3-1, section.card3-2, section.card3-3, section.card3-4{
+        height: 38vh;
+    }
+
+    section.card3-1 > h3, section.card3-2 > h3, section.card3-3 > h3, section.card3-4 > h3{
+        font-size: 1.1vw;
+        margin-left: 25%;
+    }
+
+    section.card3-1 > p, section.card3-2 > p, section.card3-3 > p, section.card3-4 > p{
+        font-size: 1vw;
+        margin-left: 8%;
+    }
+
+    section.card3-2 > button, section.card3-4 > button{
+        height: 10%;
+    }
+
+    article#big{
+        top:229vh;
+        height: 60vh;
+    }
+
+    article#big > h3{
+        font-size: 1.2vw;
+    }
+
+    article#big > p{
+        font-size: 1vw;
+    }
+
+    section#contact{
+        top:288.9vh;
+        height: 50vh;
+    }
+
+    section#contact > h2{
+        font-size: 3vw;
+    }
+
+    section#contact > .text > h3{
+        font-size: 0.7vw;
+        width: fit-content;
+    }
+
+    .text{
+        width:32.5vw;
+    }
+
+    section#form{
+        width: 32.5vw;
+    }
+
+    section#contact > .form > section.left > button{
+        height: 4vh;
+    }
+
+    section#contact > .form > section.left{
+        width:50%;
+    }
+
+    section#contact > .form > section.right{
+        width:45%;
+        
+    }
+
+    section.div2{
+        top:278.9vh;
+    }
+
+    footer#footer{
+        top:348.9vh;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:768px) {
+    .hero> h1{
+        font-size: 6.2vw;
+    }
+
+    .hero> h2{
+        font-size: 2vw;
+    }
+
+    article#cards1.cards1{
+        height: 28vh;
+    }
+
+    section.card1-1, section.card1-2, section.card1-3{
+        height: 28vh;
+    }
+
+    section.card1-1 > button, section.card1-2 > button, section.card1-3 > button{
+        height: 4vh;
+        font-size: 1vw;
+    }
+
+    article#cards2.cards2{
+        top:93vh;
+        height: 39vh;
+    }
+
+    section.card2-1, section.card2-2{
+        height: 39vh;
+    }
+
+    section.card2-1 > h3, section.card2-2 > h3{
+        margin-left: 25%;
+        font-size: 1.6vw;
+    }
+
+    section.card2-1 > p, section.card2-2 > p{
+        font-size: 1.2vw;
+    }
+
+    section.card2-2 > button{
+        height: 4vh;
+        font-size: .9vw;
+    }
+
+    section#dividor{
+        top:142vh;
+    }
+
+    section#dividor > h2{
+        font-size: 4vw;
+        margin-top:0;
+    }
+
+    section#dividor > h3{
+        font-size: 1.5vw;
+    }
+
+    section#dividor > h3:nth-of-type(2){
+        font-size: 1.5vw;
+        width: fit-content;
+    }
+
+    section#dividor > h3:nth-of-type(3){
+        width: fit-content;
+    }
+
+    article#cards3{
+        top:167vh;
+        height: 34vh;
+    }
+
+    section.card3-1, section.card3-2, section.card3-3, section.card3-4{
+        height: 34vh;
+    }
+
+    section.card3-1 > h3, section.card3-2 > h3, section.card3-3 > h3, section.card3-4 > h3{
+        font-size: 1.4vw;
+        margin-left: 15%;
+    }
+
+    section.card3-1 > p, section.card3-2 > p, section.card3-3 > p, section.card3-4 > p{
+        font-size: 1.2vw;
+        margin-left: 8%;
+    }
+
+    section.card3-2 > button, section.card3-4 > button{
+        width: 50%;
+        font-size: 1vw;
+        height: 10%;
+    }
+
+    article#big{
+        top:215vh;
+        height: 60vh;
+    }
+
+    article#big > h3{
+        font-size: 1.6vw;
+    }
+
+    article#big > p{
+        font-size: 1.4vw;
+    }
+
+    section#contact{
+        top:275vh;
+        height: 50vh;
+    }
+
+    section#contact > h2{
+        font-size: 4vw;
+    }
+
+    section#contact > .text > h3{
+        font-size: 1vw;
+        width: fit-content;
+    }
+
+    .text{
+        width:45vw;
+    }
+
+    section#form{
+        width: 45vw;
+    }
+
+    section#contact > .form > section.left > button{
+        height: 3vh;
+        width: 7vw;
+        margin-left: 110%;
+    }
+
+    section#contact > .form > section.left > input::placeholder{
+        font-size: 1.3vw;
+    }
+
+    section#contact > .form > section.right > input::placeholder{
+        font-size: 1.3vw;
+    }
+
+    section#contact > .form > section.left{
+        width: 50%;
+    }
+
+    section#contact > .form > section.right{
+        width: 45%;
+    }
+
+    section.div2{
+        top:268.9vh;
+    }
+
+    footer#footer{
+        top:335vh;
+    }
+
+    footer#footer > h3{
+        font-size: 2.5vw;
+    }
+
+    footer#footer > p{
+        font-size: 1vw;
+    }
+}
+
+
+
+@media screen and (min-width:425px) and (max-width:600px) {
+
+    
+
+    article#cards1.cards1{
+        height: 28vh;
+        
+    }
+
+    section.card1-1, section.card1-2, section.card1-3{
+        height: 28vh;
+        width: 25vw;
+    }
+
+    section.card1-1 > img, section.card1-2 > img, section.card1-3 > img{
+        width: 100%;
+    }
+
+    section.card1-1 > h3, section.card1-2 > h3, section.card1-3 > h3{
+        font-size: 2vw;
+    }
+
+    section.card1-1 > p, section.card1-2 > p, section.card1-3 > p{
+        font-size: 1.4vw;
+    }
+
+    section.card1-1 > button, section.card1-2 > button, section.card1-3 > button{
+        height: 4vh;
+        font-size: 1.1vw;
+        margin-left: 30%;
+    }
+
+    article#cards2.cards2{
+        top:93vh;
+        height: 38vh;
+    }
+
+    section.card2-1, section.card2-2{
+        height: 38vh;
+        width: 38%;
+    }
+
+    section.card2-1 > h3, section.card2-2 > h3{
+        margin-left: 25%;
+        font-size: 1.8vw;
+        width: 90%;
+    }
+
+    section.card2-1 > p, section.card2-2 > p{
+        font-size: 1.5vw;
+        width: 90%;
+    }
+
+    section.card2-2 > button{
+        height: 4vh;
+        width: 11vw;
+        font-size: 1.5vw;
+    }
+
+    section#dividor{
+        top:141vh;
+    }
+
+    section#dividor > h2{
+        font-size: 4vw;
+        margin-top:0;
+    }
+
+    section#dividor > h3{
+        font-size: 1.5vw;
+    }
+
+    section#dividor > h3:nth-of-type(2){
+        font-size: 1.5vw;
+        width: fit-content;
+    }
+
+    section#dividor > h3:nth-of-type(3){
+        width: fit-content;
+    }
+
+    article#cards3{
+        top:166vh;
+        height: 34vh;
+    }
+
+    section.card3-1, section.card3-2, section.card3-3, section.card3-4{
+        height: 34vh;
+        width:17%;
+    }
+
+    section.card3-1 > h3, section.card3-2 > h3, section.card3-3 > h3, section.card3-4 > h3{
+        font-size: 1.7vw;
+        margin-left: 15%;
+    }
+
+    section.card3-1 > p, section.card3-2 > p, section.card3-3 > p, section.card3-4 > p{
+        font-size: 1.41vw;
+        margin-left: 8%;
+    }
+
+    section.card3-2 > button, section.card3-4 > button{
+        width: 50%;
+        font-size: 1.3vw;
+        height: 10%;
+    }
+
+    article#big{
+        top:214vh;
+        height: 60vh;
+        left:12%;
+        width: 74%;
+    }
+
+    article#big > h3{
+        font-size: 2vw;
+    }
+
+    article#big > p{
+        font-size: 1.6vw;
+        width: 90%;
+    }
+
+    article#big > button{
+        font-size: 1.4vw;
+        width: 15%;
+    }
+
+    section#contact{
+        top:274vh;
+        height: 50vh;
+    }
+
+    section#contact > h2{
+        font-size: 5vw;
+    }
+
+    section#contact > .text > h3{
+        font-size: 1.5vw;
+        width: fit-content;
+    }
+
+    .text{
+        width:67vw;
+    }
+
+    section#form{
+        width: 67vw;
+    }
+
+    section#contact > .form > section.left > button{
+        height: 4vh;
+        width: 9vw;
+        margin-left: 110%;
+        font-size: 2vw;
+    }
+
+    section#contact > .form > section.left > input::placeholder{
+        font-size: 1.3vw;
+    }
+
+    section#contact > .form > section.right > input::placeholder{
+        font-size: 1.3vw;
+    }
+
+    section#contact > .form > section.left{
+        width: 50%;
+    }
+
+    section#contact > .form > section.right{
+        width: 45%;
+    }
+
+    section.div2{
+        top:268.9vh;
+    }
+
+    footer#footer{
+        top:334vh;
+    }
+
+    footer#footer > h3{
+        font-size: 2.7vw;
+    }
+
+    footer#footer > p{
+        font-size: 1.2vw;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:425px) {
+    .nav > button{
+        width: 15vw;
+        font-size: 2vw;
+    }
+
+    .hero > h1{
+        font-size: 10vw;
+    }
+    
+    .hero > h2{
+        font-size: 3vw;
+    }
+
+    article#cards1.cards1{
+        height: 28vh;
+        
+    }
+
+    section.card1-1, section.card1-2, section.card1-3{
+        height: 28vh;
+        width: 25vw;
+    }
+
+    section.card1-1 > img, section.card1-2 > img, section.card1-3 > img{
+        width: 100%;
+    }
+
+    section.card1-1 > h3, section.card1-2 > h3, section.card1-3 > h3{
+        font-size: 2.5vw;
+    }
+
+    section.card1-1 > p, section.card1-2 > p, section.card1-3 > p{
+        font-size: 1.8vw;
+    }
+
+    section.card1-1 > button, section.card1-2 > button, section.card1-3 > button{
+        height: 3vh;
+        font-size: 1.5vw;
+        margin-left: 25%;
+        width: 50%;
+    }
+
+    article#cards2.cards2{
+        top:93vh;
+        height: 38vh;
+    }
+
+    section.card2-1, section.card2-2{
+        height: 38vh;
+        width: 38%;
+    }
+
+    section.card2-1 > h3, section.card2-2 > h3{
+        margin-left: 15%;
+        font-size: 2.5vw;
+        width: 90%;
+    }
+
+    section.card2-1 > p, section.card2-2 > p{
+        font-size: 2vw;
+        width: 90%;
+    }
+
+    section.card2-2 > button{
+        height: 4vh;
+        width: 11vw;
+        font-size: 1.5vw;
+    }
+
+    section#dividor{
+        top:141vh;
+    }
+
+    section#dividor > h2{
+        font-size: 6vw;
+        margin-top:0;
+    }
+
+    section#dividor > h3{
+        font-size: 2.0vw;
+    }
+
+    section#dividor > h3:nth-of-type(2){
+        font-size: 2vw;
+        width: fit-content;
+    }
+
+    section#dividor > h3:nth-of-type(3){
+        width: fit-content;
+    }
+
+    article#cards3{
+        top:166vh;
+        height: 30vh;
+    }
+
+    section.card3-1, section.card3-2, section.card3-3, section.card3-4{
+        height: 30vh;
+        width:17%;
+    }
+
+    section.card3-1 > h3, section.card3-2 > h3, section.card3-3 > h3, section.card3-4 > h3{
+        font-size: 2vw;
+        margin-left: 10%;
+    }
+
+    section.card3-1 > p, section.card3-2 > p, section.card3-3 > p, section.card3-4 > p{
+        font-size: 1.8vw;
+        margin-left: 8%;
+    }
+
+    section.card3-2 > button, section.card3-4 > button{
+        width: 60%;
+        font-size: 1.7vw;
+        height: 8%;
+    }
+
+    article#big{
+        top:210vh;
+        height: 56vh;
+        left:12%;
+        width: 74%;
+    }
+
+    article#big > h3{
+        font-size: 3vw;
+    }
+
+    article#big > p{
+        font-size: 2.2vw;
+        width: 90%;
+    }
+
+    article#big > button{
+        font-size: 1.7vw;
+        width: 17%;
+        height: 7%;
+    }
+
+    section#contact{
+        top:266vh;
+        height: 50vh;
+    }
+
+    section#contact > h2{
+        font-size: 6vw;
+    }
+
+    section#contact > .text > h3{
+        font-size: 2vw;
+        width: fit-content;
+    }
+
+    .text{
+        width:89vw;
+    }
+
+    section#form{
+        width: 89vw;
+    }
+
+    section#contact > .form > section.left > button{
+        height: 3vh;
+        width: 13vw;
+        margin-left: 109%;
+        font-size: 2.2vw;
+    }
+
+    section#contact > .form > section.left > input::placeholder{
+        font-size: 2vw;
+    }
+
+    section#contact > .form > section.right > input::placeholder{
+        font-size: 2vw;
+    }
+
+    section#contact > .form > section.left{
+        width: 50%;
+    }
+
+    section#contact > .form > section.right{
+        width: 45%;
+    }
+
+    section.div2{
+        top:258.9vh;
+    }
+
+    footer#footer{
+        top:326vh;
+    }
+
+    footer#footer > h3{
+        font-size: 5vw;
+    }
+
+    footer#footer > p{
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    article#cards1.cards1{
+        height: 28vh;
+        
+    }
+
+    section.card1-1, section.card1-2, section.card1-3{
+        height: 28vh;
+        width: 25vw;
+    }
+
+    section.card1-1 > img, section.card1-2 > img, section.card1-3 > img{
+        width: 100%;
+    }
+
+    section.card1-1 > h3, section.card1-2 > h3, section.card1-3 > h3{
+        font-size: 2.7vw;
+    }
+
+    section.card1-1 > p, section.card1-2 > p, section.card1-3 > p{
+        font-size: 2.3vw;
+    }
+
+    section.card1-1 > button, section.card1-2 > button, section.card1-3 > button{
+        height: 3vh;
+        font-size: 1.8vw;
+        margin-left: 15%;
+        width: 70%;
+    }
+
+    article#cards2.cards2{
+        top:93vh;
+        height: 38vh;
+    }
+
+    section.card2-1, section.card2-2{
+        height: 38vh;
+        width: 38%;
+    }
+
+    section.card2-1 > h3, section.card2-2 > h3{
+        margin-left: 10%;
+        font-size: 2.7vw;
+        width: 90%;
+    }
+
+    section.card2-1 > p, section.card2-2 > p{
+        font-size: 2.5vw;
+        width: 90%;
+    }
+
+    section.card2-2 > button{
+        height: 3vh;
+        width: 15vw;
+        font-size: 2vw;
+    }
+
+    section#dividor{
+        top:141vh;
+    }
+
+    section#dividor > h2{
+        font-size: 6vw;
+        margin-top:0;
+    }
+
+    section#dividor > h3{
+        font-size: 2.0vw;
+    }
+
+    section#dividor > h3:nth-of-type(2){
+        font-size: 2vw;
+        width: fit-content;
+    }
+
+    section#dividor > h3:nth-of-type(3){
+        width: fit-content;
+    }
+
+    article#cards3{
+        top:166vh;
+        height: 30vh;
+    }
+
+    section.card3-1, section.card3-2, section.card3-3, section.card3-4{
+        height: 30vh;
+        width:17%;
+    }
+
+    section.card3-1 > h3, section.card3-2 > h3, section.card3-3 > h3, section.card3-4 > h3{
+        font-size: 2.1vw;
+        margin-left: 10%;
+    }
+
+    section.card3-1 > p, section.card3-2 > p, section.card3-3 > p, section.card3-4 > p{
+        font-size: 2.2vw;
+        margin-left: 8%;
+    }
+
+    section.card3-2 > button, section.card3-4 > button{
+        width: 65%;
+        font-size: 1.9vw;
+        height: 8%;
+    }
+
+    article#big{
+        top:210vh;
+        height: 56vh;
+        left:12%;
+        width: 74%;
+    }
+
+    article#big > h3{
+        font-size: 3.5vw;
+    }
+
+    article#big > p{
+        font-size: 2.65vw;
+        width: 90%;
+    }
+
+    article#big > button{
+        font-size: 2vw;
+        width: 22%;
+        height: 7%;
+    }
+
+    section#contact{
+        top:266vh;
+        height: 50vh;
+    }
+
+    section#contact > h2{
+        font-size: 6vw;
+    }
+
+    section#contact > .text > h3{
+        font-size: 2vw;
+        width: fit-content;
+    }
+
+    .text{
+        width:89vw;
+    }
+
+    section#form{
+        width: 89vw;
+    }
+
+    section#contact > .form > section.left > button{
+        height: 3vh;
+        width: 13vw;
+        margin-left: 109%;
+        font-size: 2.2vw;
+    }
+
+    section#contact > .form > section.left > input::placeholder{
+        font-size: 2vw;
+    }
+
+    section#contact > .form > section.right > input::placeholder{
+        font-size: 2vw;
+    }
+
+    section#contact > .form > section.left{
+        width: 50%;
+    }
+
+    section#contact > .form > section.right{
+        width: 45%;
+    }
+
+    section.div2{
+        top:258.9vh;
+    }
+
+    footer#footer{
+        top:326vh;
+    }
+
+    footer#footer > h3{
+        font-size: 5vw;
+    }
+
+    footer#footer > p{
+        font-size: 2vw;
     }
 }
