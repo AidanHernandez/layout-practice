@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-body{
+html, body{
     font-family: "Open Sans", sans-serif;
     font-weight: normal;
     overflow-x: hidden;
@@ -24,7 +24,7 @@ button{
 
 nav#nav {
     height: 8vh;
-    width:100vw;
+    width:100%;
 }
 
 .nav > button{
@@ -34,8 +34,8 @@ nav#nav {
     color:white;
     margin-right: 0.8vw;
     height: 5vh;
-    width: 9vw;
-    border: 2px solid #434958;
+    width: 10vw;
+    border: 0.1vw solid #434958;
     align-self: center;
 }
 
@@ -44,6 +44,7 @@ nav#nav {
 }
 
 .hero{
+    z-index: -999;
     position: absolute;
     left:0;
     top: 8vh;
@@ -61,7 +62,7 @@ nav#nav {
 
 section#hero {
     height: 50vh;
-    width:100vw;
+    width:100%;
 }
 
 .hero > h1{
@@ -93,7 +94,7 @@ section#hero {
 }
 
 article#cards1 {
-    width: 100vw;
+    width: 100%;
     height:70vh;
 }
 
@@ -134,7 +135,7 @@ section.card1-1 > button{
     background-color: #178a27;
     font-family: "Open Sans", sans-serif;
     border: none;
-    border-radius: 3px;
+    border-radius: 0.5vw;
     width: 9vw;
     height: 7vh;
     margin-left: 5vw;
@@ -159,7 +160,7 @@ section.card1-3 > button{
     background-color: #852406;
     font-family: "Open Sans", sans-serif;
     border: none;
-    border-radius: 3px;
+    border-radius: 0.5vw;
     width: 9vw;
     height: 7vh;
     margin-left: 5vw;
@@ -184,7 +185,7 @@ section.card1-2 > button{
     background-color: #1686c1;
     font-family: "Open Sans", sans-serif;
     border: none;
-    border-radius: 3px;
+    border-radius: 0.5vw;
     width: 9vw;
     height: 7vh;
     margin-left: 6vw;
@@ -194,9 +195,9 @@ section.card1-2 > button{
 .cards2{
     position: absolute;
     left:0;
-    top:130%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    top:130vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     display: inline-flex;
     flex-flow: row;
     justify-content: center;
@@ -205,11 +206,11 @@ section.card1-2 > button{
 
 article#cards2{
     width:100%;
-    height: 62%;
+    height: 62vh;
 }
 
 section.card2-1, section.card2-2{
-    width: 31%;
+    width: 31vw;
     margin-right: 2%;
     background-color: #f2f2f2;
     
@@ -222,38 +223,42 @@ section.card2-1 > img, section.card2-2 > img{
 
 
 section.card2-1 > h3{
-    margin-left: 35%;
+    margin-left: 11vw;
     width: fit-content;
     color: #989898;
+    font-size: 0.95vw;
 }
 
 section.card2-1 > p{
-    margin-left: 5%;
-    width: 91%;
+    margin-left: 1.5vw;
+    width: 28vw;
     color: #898989;
+    font-size: 0.8vw;
 }
 
 section.card2-2 > h3{
-    margin-left: 35%;
+    margin-left: 11vw;
     width: fit-content;
     color: #989898;
+    font-size: .95vw;
 }
 
 section.card2-2 > p{
-    margin-left: 5%;
-    width: 91%;
+    margin-left: 1.5vw;
+    width: 28vw;
     color: #898989;
+    font-size: .8vw;
 } 
 
 button.more{
     background-color: white;
-    margin-left: 70%;
-    border-radius: 5px;
+    margin-left: 22vw;
+    border-radius: .7vw;
     color: #888888;
-    border: 1px solid #dadada;
-    width: 20%;
-    height: 7%;
-    font-size: 17px;
+    border: 0.1vw solid #dadada;
+    width:6.5vw;
+    height: 5vh;
+    font-size: .82vw;
 }
 
 .dividor{
@@ -271,37 +276,37 @@ button.more{
 
 section#dividor{
     left:0;
-    top:200%;
+    top:200vh;
     width: 100%;
-    height: 25%;
+    height: 25vh;
     justify-content: center;
     align-items: center;
 }
 
 .dividor > h2{
     width: fit-content;
-    font-size: 30px;
-    text-shadow: 1px 2px #aaaaaa;
+    font-size: 2vw;
+    text-shadow: 0.1vw 0.2vw #aaaaaa;
 }
 
 .dividor > h3{
     width: fit-content;
-    font-size: 15px;
+    font-size: .79vw;
     margin-top: 0;
 }
 
 .dividor > h3:nth-of-type(2){
-    width: 28%;
-    font-size: 15px;
+    width: 28vw;
+    font-size: .79vw;
     margin-top: 0;
-    margin-left: 2%;
+    margin-left: 2vw;
 }
 
 .dividor > h3:nth-of-type(3){
-    width: 25%;
-    font-size: 15px;
+    width: 25vw;
+    font-size: .79vw;
     margin-top: 0;
-    margin-left: 10%;
+    margin-left: 10vw;
 }
 
 
@@ -309,23 +314,23 @@ section#dividor{
 .cards3{
     position: absolute;
     left:0;
-    top:220%;
+    top:225vh;
     display: flex;
     flex-flow: row;
     justify-content: center;
     background-color: white;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 5vh;
+    padding-bottom: 9vh;
 }
 
 article#cards3 {
     width: 100%;
-    height: 57%;
+    height: 57vh;
 }
 
 section.card3-1, section.card3-2, section.card3-3, section.card3-4{
-    width: 14%;
-    margin-right: 2%;
+    width: 14vw;
+    margin-right: 2vw;
     background-color: #f2f2f2;
     
 }
@@ -348,14 +353,16 @@ section.card3-4 > img{
 
 section.card3-1 > h3, section.card3-2 > h3, section.card3-3 > h3, section.card3-4 > h3{
     width:fit-content;
-    margin-left: 30%;
+    margin-left: 4vw;
     color: #666666;
+    font-size: 0.9vw;
 }
 
 section.card3-1 > p, section.card3-2 > p, section.card3-3 > p, section.card3-4 > p{
-    width:90%;
-    margin-left: 9%;
+    width:12vw;
+    margin-left: 1.3vw;
     color: #959595;
+    font-size: 0.8vw;
 }
 
 
@@ -363,12 +370,12 @@ section.card3-2 > button{
     color: #767676;
     background-color: white;
     font-family: "Open Sans", sans-serif;
-    border: 1px solid #dfdfdf;
-    border-radius: 10px;
-    width: 35%;
-    height: 8%;
-    margin-left: 30%;
-    font-size: 17px;
+    border: 0.1vw solid #dfdfdf;
+    border-radius: 0.5vw;
+    width: 5vw;
+    height: 5vh;
+    margin-left: 4vw;
+    font-size: .8vw;
 }
 
 
@@ -376,12 +383,12 @@ section.card3-4 > button{
     color: #767676;
     background-color: white;
     font-family: "Open Sans", sans-serif;
-    border: 1px solid #dfdfdf;
-    border-radius: 10px;
-    width: 35%;
-    height: 8%;
-    margin-left: 30%;
-    font-size: 17px;
+    border: 0.1vw solid #dfdfdf;
+    border-radius: 0.5vw;
+    width: 5vw;
+    height: 5vh;
+    margin-left: 4vw;
+    font-size: .8vw;
 }
 
 .big{
@@ -393,40 +400,44 @@ section.card3-4 > button{
 }
 
 article#big{
-    width:62%;
-    top:295%;
-    left:18%;
-    height: 93%;
+    width:62vw;
+    top:295vh;
+    left:17.6vw;
+    height: 90vh;
 }
 
 .big > h3{
-    width:94%;
-    margin-left: 3%;
+    width:60vw;
+    margin-left: 1.78vw;
     color: #898989;
+    font-size: 1vw;
+    margin-bottom: 0;
 }
 
 .big > p{
-    width:94%;
-    margin-left: 3%;
+    width:58vw;
+    margin-left: 1.78vw;
+    font-size: 0.8vw;
 }
 
 .big > button{
     color: #767676;
     background-color: white;
     font-family: "Open Sans", sans-serif;
-    border: 1px solid #dfdfdf;
-    border-radius: 10px;
-    width: 13%;
-    height:5%;
-    margin-left: 3%;
-    font-size: 19px;
+    border: 0.1vw solid #dfdfdf;
+    border-radius: 0.5vw;
+    width: 7vw;
+    height:5vh;
+    margin-left: 1.78vw;
+    font-size: 0.9vw;
 }
 
 .div2{
+    z-index: -1;
     position: absolute;
-    top:388%;
+    top:377vh;
     width: 100%;
-    height: 8%;
+    height: 40vh;
     background-color: white;
     display: flex;
     left:0;
@@ -447,25 +458,25 @@ article#big{
 section#contact{
     width: 100%;
     left:0;
-    top: 375%;
-    margin-top: 10%;
-    height: 60%;
+    top: 385vh;
+    margin-top: 10vh;
+    height: 60vh;
 }
 
 .contact > h2{
     color: white;
-    margin-top: 5%;
-    font-size: 35px;
-    text-shadow: 1px 2px black;
+    margin-top: 9vh;
+    font-size: 2vw;
+    text-shadow: 0.1vw 0.2vw black;
 }
 
 .text{
     display: inline-flex;
     flex-flow: column;
     background-color: rgba(218, 217, 217, 0.514);
-    width: 30%;
-    border-radius: 10px;
-    margin-bottom: 2%;
+    width: 29vw;
+    border-radius: 0.5vw;
+    margin-bottom: 2vh;
   
 }
 
@@ -473,24 +484,22 @@ section#contact{
     
     margin-top: 0;
     width: fit-content;
-    font-size: 12px;
+    font-size: 0.6vw;
     
 }
 
 .contact > .text > h3:nth-of-type(1){
-    padding-top: 2%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-top: 1vh;
+    padding-left: 1.5vw;
+    padding-left: 1.5vw;
 }
 
 .contact > .text > h3:nth-of-type(2){
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 2.5vw;
 }
 
 .contact > .text > h3:nth-of-type(3){
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 4.5vw;
 }
 
 .form{
@@ -499,12 +508,12 @@ section#contact{
 }
 
 section#form{
-    width: 30%;
-    height: 30%;
+    width: 29vw;
+    height: 20vh;
 }
 
 section.left{
-    width: 50%;
+    width: 14.5vw;
     display: flex;
     flex-flow: column;
     color:black;
@@ -513,10 +522,10 @@ section.left{
 section.left > input{
     
    background-color: rgba(218, 217, 217, 0.514);
-   height: 20%;
+   height: 4vh;
    border: none;
-   margin-top: 2%;
-   border-radius: 5px;
+   margin-top: 1vh;
+   border-radius: .7vw;
 }
 
 section.left > input:first-of-type{
@@ -528,11 +537,12 @@ section.left > input:first-of-type{
 ::placeholder {
     position: absolute;
     color: black;
-    left:5%
+    left:5%;
+    font-size: 0.7vw;
 }
 
 section.right{
-    width: 50%;
+    width: 14.5vw;
     display: flex;
     flex-flow: column;
     margin-left: 4%;
@@ -540,9 +550,9 @@ section.right{
 
 section.right > input{
    background-color: rgba(218, 217, 217, 0.514);
-   height: 65%;
+   height: 13.8vh;
    border: none;
-   border-radius: 5px;
+   border-radius: .7vw;
 }
 
 section.right > input::placeholder {
@@ -552,14 +562,16 @@ section.right > input::placeholder {
 }
 
 button.send{
-    width: 30%;
-    margin-left: 108%;
-    height: 20%;
-    border-radius: 10px;
+    z-index: 3;
+    width: 5vw;
+    margin-left: 15.7vw;
+    height: 5vh;
+    border-radius: 0.5vw;
     color: white;
     background-color: #262628;
-    border: 1px solid white;
-    margin-top: 5%;
+    border: 0.1vw solid white;
+    margin-top: 1vh;
+    font-size: .7vw;
 }
 
 footer{
@@ -568,24 +580,24 @@ footer{
     position: absolute;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 1vh;
 }
 
 footer#footer{
-    top: 445%;
+    top: 455vh;
     left:0;
     width: 100%;
 }
 
 footer > h3{
     color: #666666;
-    font-size: 30px;
+    font-size: 1.5vw;
     font-style: italic;
     margin-bottom: 0;
 }
 
 hr{
-    margin-top: 2.5%;
+    margin-top: 2.5vw;
     width: 100%;
     background-color: #f7f7f7; 
     height: 1px; 
@@ -594,13 +606,13 @@ hr{
 
 footer > p:first-of-type{
     color: #666666;
-    font-size: 12px;
+    font-size: .55vw;
     font-style: italic;
 }
 
 footer > p:last-of-type{
     color: #999999;
-    font-size: 12px;
+    font-size: .55vw;
     font-style: italic;
 }
 
@@ -608,7 +620,11 @@ footer > img{
     align-self: flex-end;
     margin-right: 1%;
     margin-bottom: 1%;
+    
 }
 
-@media screen and (max-width:1440px){
+@media screen{
+    body{
+        overflow-x: hidden;
+    }
 }
